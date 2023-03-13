@@ -1,0 +1,22 @@
+CREATE DATABASE horas_db
+
+USE horas_db
+
+CREATE TABLE usuario(
+	admin_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+	nome VARCHAR(100) NOT NULL,
+	email VARCHAR(150) NOT NULL,
+	senha VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE funcionario(
+	funcionario_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+	funcao
+);
+
+CREATE TABLE hora(
+	id_hora INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+	hora_devendo
+	hora_extra
+);
+
