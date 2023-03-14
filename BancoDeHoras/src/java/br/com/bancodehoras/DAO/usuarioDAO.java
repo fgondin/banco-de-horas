@@ -66,4 +66,20 @@ public class UsuarioDAO {
         }
         return lista;
     }
+    
+    public void ExcluirUsuario(UsuarioDTO usuarioDTO) throws ClassNotFoundException{
+        String sql = "DELETE FROM usuario WHERE id = ?";
+        conn = new ConexaoDAO().conexaoBD();
+        
+        try{
+            pstm = conn.prepareStatement(sql);
+            pstm.setString(1, usuarioDTO.getNome());
+            pstm.setString(2, usuarioDTO.getEmail());
+            pstm.setString(3, usuarioDTO.getSenha());
+            pstm.execute();
+            pstm.close();
+        }catch(SQLException e){
+            System.out.println("Nada foi alterado.");
+        }
+    }
 }
