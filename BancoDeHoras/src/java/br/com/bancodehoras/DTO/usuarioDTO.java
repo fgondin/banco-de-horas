@@ -8,7 +8,7 @@ package br.com.bancodehoras.DTO;
  *
  * @author Frederico
  */
-public class usuarioDTO {
+public class UsuarioDTO {
      private int usuarioId;
     private String nome;
     private String email;
@@ -36,6 +36,10 @@ public class usuarioDTO {
     
     public void setEmail(String email){
         this.email = email;
+    }
+    
+    public String getSenha(){
+        return senha;
     }
     
     public void setSenha(String senha){

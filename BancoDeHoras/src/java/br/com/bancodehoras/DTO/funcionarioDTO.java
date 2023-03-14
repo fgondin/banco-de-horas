@@ -8,7 +8,7 @@ package br.com.bancodehoras.DTO;
  *
  * @author Frederico
  */
-public class funcionarioDTO {
+public class FuncionarioDTO {
    private int funcionarioId;
    private int funcao;
    
@@ -27,4 +27,5 @@ public class funcionarioDTO {
    public void setFuncao(int funcao){
        this.funcao = funcao;
    }
+   
 }

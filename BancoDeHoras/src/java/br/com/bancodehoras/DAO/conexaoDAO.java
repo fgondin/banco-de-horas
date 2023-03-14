@@ -12,13 +12,13 @@ import java.sql.SQLException;
  *
  * @author Frederico
  */
-public class conexaoDAO {
+public class ConexaoDAO {
     public Connection conexaoBD() throws ClassNotFoundException {
         Connection conn = null;
         
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/biblioteca_db?user=root&password=";
+            String url = "jdbc:mysql://localhost:3306/hora_db?user=root&password=";
             conn = DriverManager.getConnection(url);
         } catch (SQLException e) {
             System.out.println("não conectou");
