@@ -11,12 +11,12 @@ CREATE TABLE usuario(
 
 CREATE TABLE funcionario(
 	funcionario_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-	funcao
+	funcao INT
 );
 
 CREATE TABLE hora(
 	id_hora INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-	hora_devendo
-	hora_extra
+	hora_devendo FLOAT,
+	hora_extra FLOAT
 );
 

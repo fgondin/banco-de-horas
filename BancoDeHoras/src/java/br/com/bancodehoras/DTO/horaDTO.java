@@ -9,31 +9,22 @@ package br.com.bancodehoras.DTO;
  * @author Frederico
  */
 public class HoraDTO {
-    private int horaId;
-    private String hora_devendo;
-    private String hora_extra;
+    private int horasId;
+    private float horas;
     
-    public int getHoraId(){
-        return horaId;
+    public int getHorasId(){
+        return horasId;
     }
     
-    public void setHoraId(int horaId){
-        this.horaId = horaId;
+    public void setHoraId(int horasId){
+        this.horasId = horasId;
     }
     
-    public String getHora_devendo(){
-        return hora_devendo;
+    public float getHoras(){
+        return horas;
     }
     
-    public void setHora_devendo(String hora_devendo){
-        this.hora_devendo = hora_devendo;
-    }
-    
-    public String getHora_extra(){
-        return hora_extra;
-    }
-    
-    public void setHora_extra(String hora_extra){
-        this.hora_extra = hora_extra;
+    public void setHoras(float horas){
+        this.horas = horas;
     }
 }
