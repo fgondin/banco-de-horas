@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/Frederico/Documents/NetBeansProjects/banco-de-horas/BancoDeHoras/src/java/br/com/bancodehoras/DAO/funcionarioDAO.java</file>
             <file>file:/C:/Users/Frederico/Documents/NetBeansProjects/banco-de-horas/BancoDeHoras/src/java/br/com/bancodehoras/DAO/ConexaoDAO.java</file>
             <file>file:/C:/Users/Frederico/Documents/NetBeansProjects/banco-de-horas/BancoDeHoras/src/java/br/com/bancodehoras/DAO/UsuarioDAO.java</file>
+            <file>file:/C:/Users/Frederico/Documents/NetBeansProjects/banco-de-horas/BancoDeHoras/src/java/br/com/bancodehoras/DAO/horaDAO.java</file>
             <file>file:/C:/Users/Frederico/Documents/NetBeansProjects/banco-de-horas/BancoDeHoras/src/java/br/com/bancodehoras/DTO/FuncionarioDTO.java</file>
-            <file>file:/C:/Users/Frederico/Documents/NetBeansProjects/banco-de-horas/BancoDeHoras/src/java/br/com/bancodehoras/DTO/UsuarioDTO.java</file>
+            <file>file:/C:/Users/Frederico/Documents/NetBeansProjects/banco-de-horas/BancoDeHoras/src/java/br/com/bancodehoras/DTO/HoraDTO.java</file>
         </group>
     </open-files>
 </project-private>

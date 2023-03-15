@@ -16,7 +16,6 @@ CREATE TABLE funcionario(
 
 CREATE TABLE hora(
 	id_hora INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-	hora_devendo FLOAT,
-	hora_extra FLOAT
+	horas FLOAT
 );
 
